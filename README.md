@@ -1,2 +1,3 @@
-# energify.pt
-Repositoy of energify.pt landing page.
+# Energify.pt
+
+Energify main website repository.
