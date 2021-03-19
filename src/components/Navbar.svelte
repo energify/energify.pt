@@ -48,8 +48,6 @@
         >
           Roadmap
         </a>
-
-        <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
       </div>
     </div>
   </nav>

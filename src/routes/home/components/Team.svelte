@@ -2,59 +2,60 @@
   import TeamCard from "./TeamCard.svelte";
 </script>
 
-<div class="bg-white">
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="bg-gray-900">
   <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
-      <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Meet our leadership</h2>
-      <ul
-        class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0"
-      >
-        <li>
+      <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+        <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">Meet our team</h2>
+        <p class="text-xl text-gray-300">Learn more about people behind the project.</p>
+      </div>
+      <ul class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+        <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
           <TeamCard
             name="Vasco Sousa"
             avatar="./vasco.jpg"
             role="Developer"
-            description="A passionate full stack developer, who is loooking to build smart solutions to hard daily problems."
+            githubLink="https://github.com/mynameisvasco"
           />
         </li>
-        <li>
+        <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
           <TeamCard
             name="Francisco Monteiro"
-            avatar="francisco.jpg"
+            avatar="./francisco.jpg"
             role="Developer"
-            description="A young and bright star of engineering, who solves real life problems through technological approaches."
+            githubLink="https://github.com/francisquinho85"
           />
         </li>
-        <li>
+        <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
           <TeamCard
             name="Daniel Andrade"
-            avatar="daniel.jpg"
+            avatar="./daniel.jpg"
             role="Developer"
-            description="An enthusiast student of engineering whose purpose is to make the world a better place through research and development."
+            githubLink="https://github.com/mynameisvasco"
           />
         </li>
-        <li>
+        <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
           <TeamCard
             name="Roberto Graça"
-            avatar="roberto.jpg"
+            avatar="./roberto.jpg"
             role="Developer"
-            description="A dedicated student of engineering focused on doing things one at a time."
+            githubLink="https://github.com/mynameisvasco"
           />
         </li>
-        <li>
+        <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
           <TeamCard
             name="Eduardo Almeida"
-            avatar="eduardo.jpg"
+            avatar="./eduardo.jpg"
             role="Developer"
-            description="A young and bright star of engineering, who solves real life problems through technological approaches."
+            githubLink="https://github.com/mynameisvasco"
           />
         </li>
-        <li>
+        <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
           <TeamCard
             name="Paulo Bartolomeu"
-            avatar="https://jsl-online.com/wp-content/uploads/2017/01/placeholder-user.png"
+            avatar="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
             role="Coordinator"
-            description="Researcher with Ph.D. at Universidade de Aveiro."
           />
         </li>
       </ul>

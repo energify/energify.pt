@@ -1,5 +1,6 @@
 <script>
   import FeaturesCard from "./FeaturesCard.svelte";
+  import { link, shieldCheck, bookOpen } from "@martinse/svelte-heroicons/dist/solid/";
 </script>
 
 <div class="relative bg-gray-100 py-16 sm:py-24 lg:py-32">
@@ -16,14 +17,17 @@
         <FeaturesCard
           title="Decentralized"
           description="Due to distributed ledger technology, we can provide a decentralized way to process trade's payments."
+          icon={link}
         />
         <FeaturesCard
-          title="Transparent"
+          title="Privacy Aware"
           description="The system prevents tracking using a set of state of the art mechanisms. All information is private."
+          icon={shieldCheck}
         />
         <FeaturesCard
-          title="Law compliant"
+          title="Law Compliant"
           description="All features offered by our system, follow latest regulations from European Union about community green energy trading."
+          icon={bookOpen}
         />
       </div>
     </div>

@@ -13,7 +13,7 @@
           <div class="absolute inset-0 bg-green-700" style="mix-blend-mode: multiply;" />
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-          <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+          <h1 class="text-center text-4xl font-extrabold sm:text-5xl lg:text-6xl">
             <span class="block text-white">Take the next step to</span>
             <span class="block text-green-200">renewable energy</span>
           </h1>
