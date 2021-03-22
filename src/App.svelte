@@ -1,13 +1,15 @@
 <script lang="ts">
-  import { Router, Link, Route } from "svelte-navigator";
+  import { Router, Route } from "svelte-navigator";
+  import Navbar from "./components/Navbar.svelte";
+  import Deliverables from "./routes/deliverables/Deliverables.svelte";
   import Home from "./routes/home/Home.svelte";
 </script>
 
 <Router>
-  <nav />
-
+  <Navbar />
   <div>
     <Route path="/" component={Home} />
+    <Route path="/deliverables" component={Deliverables} />
   </div>
 </Router>
 

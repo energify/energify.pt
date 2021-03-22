@@ -8,7 +8,6 @@
 </script>
 
 <div class="relative bg-white overflow-hidden">
-  <Navbar />
   <HomeHero />
   <Features />
   <MoreFeatures />

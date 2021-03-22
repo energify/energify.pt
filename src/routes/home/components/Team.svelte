@@ -32,7 +32,7 @@
             name="Daniel Andrade"
             avatar="./daniel.jpg"
             role="Developer"
-            githubLink="https://github.com/mynameisvasco"
+            githubLink="https://github.com/AnBapDan"
           />
         </li>
         <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
@@ -40,7 +40,7 @@
             name="Roberto Graça"
             avatar="./roberto.jpg"
             role="Developer"
-            githubLink="https://github.com/mynameisvasco"
+            githubLink="https://github.com/RobertoGraca"
           />
         </li>
         <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
@@ -48,7 +48,7 @@
             name="Eduardo Almeida"
             avatar="./eduardo.jpg"
             role="Developer"
-            githubLink="https://github.com/mynameisvasco"
+            githubLink="https://github.com/eapsa"
           />
         </li>
         <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">

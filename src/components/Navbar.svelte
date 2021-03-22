@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Link } from "svelte-navigator";
 </script>
 
 <div class="relative pt-6 pb-6 sm:pb-6 md:pb-12">
@@ -25,20 +26,20 @@
         </div>
       </div>
       <div class="hidden md:block md:ml-10 md:space-x-10">
+        <Link to="/">
+          <span class="font-medium text-gray-500 hover:text-gray-900"> Home </span>
+        </Link>
+
+        <Link to="/deliverables">
+          <span class="font-medium text-gray-500 hover:text-gray-900"> Deliverables </span>
+        </Link>
+
         <a
           href="https://github.com/Energify"
           target="_blank"
           class="font-medium text-gray-500 hover:text-gray-900"
         >
           Github
-        </a>
-
-        <a
-          href="https://www.notion.so/Energify-Blog-171591a40de347c48358fd1f78560107"
-          target="_blank"
-          class="font-medium text-gray-500 hover:text-gray-900"
-        >
-          Blog
         </a>
 
         <a
