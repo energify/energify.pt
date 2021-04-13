@@ -44,7 +44,15 @@
               Project Calendar
             </a>
           </DeliverableListItem>
-          <DeliverableListItem title="Milestone 2">Coming Soon</DeliverableListItem>
+          <DeliverableListItem title="Milestone 2">
+            <a
+              class="text-green-700 mb-1"
+              href="https://drive.google.com/file/d/1H00KauyTm29SkFJCqws-yJVznBiG48td/view"
+              target="_blank"
+            >
+              Presentation 2
+            </a>
+          </DeliverableListItem>
           <DeliverableListItem title="Milestone 3">Coming Soon</DeliverableListItem>
           <DeliverableListItem title="Milestone 4">Coming Soon</DeliverableListItem>
         </div>

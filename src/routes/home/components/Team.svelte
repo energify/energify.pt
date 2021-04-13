@@ -52,11 +52,7 @@
           />
         </li>
         <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
-          <TeamCard
-            name="Paulo Bartolomeu"
-            avatar="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-            role="Coordinator"
-          />
+          <TeamCard name="Paulo Bartolomeu" avatar="./paulo.jpeg" role="Coordinator" />
         </li>
       </ul>
     </div>
