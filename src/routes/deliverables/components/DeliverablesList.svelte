@@ -53,7 +53,15 @@
               Presentation 2
             </a>
           </DeliverableListItem>
-          <DeliverableListItem title="Milestone 3">Coming Soon</DeliverableListItem>
+          <DeliverableListItem title="Milestone 3">
+            <a
+              class="text-green-700 mb-1"
+              href="https://docs.google.com/document/d/16UFmkMJ-i8q-4or0ycxHj_vfLrHwbZjD6G64MFQghWI/edit?usp=sharing"
+              target="_blank"
+            >
+              Prototype Report
+            </a>
+          </DeliverableListItem>
           <DeliverableListItem title="Milestone 4">Coming Soon</DeliverableListItem>
         </div>
       </div>
