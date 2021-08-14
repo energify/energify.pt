@@ -62,7 +62,15 @@
               Prototype Report
             </a>
           </DeliverableListItem>
-          <DeliverableListItem title="Milestone 4">Coming Soon</DeliverableListItem>
+          <DeliverableListItem title="Milestone 4">
+            <a
+              class="text-green-700 mb-1"
+              href="https://docs.google.com/document/d/1pELUoq2w0cI_lCTplFGjkr-oNsqzRcCb1vp8PbSpxsQ/edit?usp=sharing"
+              target="_blank"
+            >
+              Final Report
+            </a>
+          </DeliverableListItem>
         </div>
       </div>
     </div>
