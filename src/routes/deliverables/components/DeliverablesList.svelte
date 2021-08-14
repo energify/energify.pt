@@ -65,7 +65,7 @@
           <DeliverableListItem title="Milestone 4">
             <a
               class="text-green-700 mb-1"
-              href="https://docs.google.com/document/d/1pELUoq2w0cI_lCTplFGjkr-oNsqzRcCb1vp8PbSpxsQ/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1sObV4ARjRxNqO3Omm_jdqCCd7QcIDRdT/view?usp=sharing"
               target="_blank"
             >
               Final Report
